@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{276b8d84-daf7-4941-b9ad-8762b0fd5319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernels">
+      <UniqueIdentifier>{91620b98-cb6c-4dcb-8142-f731b9b8a1fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AABB.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parameters.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Simulation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PrefixSum.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AABB.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Constants.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parameters.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Simulation.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PrefixSum.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shaders\PointParticle.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\PointParticle.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\SphereParticle.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\SphereParticle.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="bin\data\kernels\Scan.cl">
+      <Filter>kernels</Filter>
+    </None>
+    <None Include="bin\data\kernels\SelectionSort.cl">
+      <Filter>kernels</Filter>
+    </None>
+    <None Include="bin\data\kernels\Simulation.cl">
+      <Filter>kernels</Filter>
+    </None>
+  </ItemGroup>
+</Project>
